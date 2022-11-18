@@ -13,13 +13,14 @@ function solution(array) {
     
     while (cnt < array.length) {
         
-        if(beforeNumber !== array[cnt]) {
+        if(beforeNumber !== array[cnt]) {// 이전숫자랑 지금숫자랑 다르면 경계면을 넘었다
             repeatCnt = 1;
-        } else {
+        } else {// 경계면을 넘은게 아니라면 == 같은 숫자를 세고있는 것
             repeatCnt = repeatCnt + 1;
         }
         
-        if(repeatCnt === choiRepeatCnt) {
+        // 중복을 체크하는 케이스
+        if(repeatCnt === choiRepeatCnt) {// 
             if(choi !== array[cnt]) {
                 isDupChoi = true;
             }
