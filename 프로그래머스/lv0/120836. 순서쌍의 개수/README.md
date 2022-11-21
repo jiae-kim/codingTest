@@ -1,10 +1,10 @@
 # [level 0] 순서쌍의 개수 - 120836 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120836) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120836?language=java) 
 
 ### 성능 요약
 
-메모리: 36.3 MB, 시간: 4.76 ms
+메모리: 74.9 MB, 시간: 4.22 ms
 
 ### 구분
 
